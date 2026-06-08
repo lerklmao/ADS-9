@@ -35,7 +35,7 @@ void navigate(PMTree::Node* node, int num, std::vector<char>& res) {
   navigate(chosen, rem, res);
 }
 
-}
+} // namespace
 
 std::vector<std::vector<char>> getAllPerms(PMTree& tree) {
   std::vector<std::vector<char>> out;
